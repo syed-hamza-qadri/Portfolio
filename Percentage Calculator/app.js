@@ -1,9 +1,9 @@
-var calculus = +prompt("Your calculus Number")
-var eng = +prompt("Your eng Number")
-var physics = +prompt("Your physics Number")
-var tajweed = +prompt("Your tajweed Number")
-var isl = +prompt("Your isl Number")
-var comp = +prompt("Your comp Number")
+var calculus = +prompt("Your Calculus Number")
+var eng = +prompt("Your Eng Number")
+var physics = +prompt("Your Physics Number")
+var tajweed = +prompt("Your Tajweed Number")
+var isl = +prompt("Your Isl Number")
+var comp = +prompt("Your Comp Number")
 
 var percentage = (calculus + eng + physics + tajweed + isl + comp) /600 *100
 
