@@ -11,5 +11,4 @@ document.write("<p> You Ordered " + chapati + " Chapati</p>")
 document.write("<p> You Ordered " + cold_drinks + " Cold Drinks</p>")
 document.write("<p> You Ordered " + biryani + " Biryani</p>")
 document.write("<p> You Ordered " + pizza + " Pizza</p>")
-
-document.write("Your Percentage is " + percentage + "%")
+document.write("Thank You!")
