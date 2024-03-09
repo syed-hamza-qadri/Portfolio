@@ -16,3 +16,17 @@ document.write("<p>Your marks in Islamiat is " + isl + "</p>")
 document.write("<p>Your marks in Computer is " + comp + "</p>")
 
 document.write("Your Percentage is " + percentage + "%")
+
+if (percentage >= 90) {
+    document.write("<p>Your Grade is A </p>")
+} else if (percentage >= 80) {
+    document.write("<p>Your Grade is B </p>")
+} else if (percentage >= 70) {
+    document.write("<p>Your Grade is C </p>")
+} else if (percentage >= 60) {
+    document.write("<p>Your Grade is D </p>")
+} else if (percentage >= 50) {
+    document.write("<p>Your Grade is E </p>")
+} else {
+    document.write("<p>Your Grade is F </p>")
+}
