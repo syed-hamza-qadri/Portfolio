@@ -8,7 +8,7 @@ var comp = +prompt("Your Comp Number")
 var percentage = (calculus + eng + physics + tajweed + isl + comp) /600 *100
 
 document.write("<h1>Result</h1>")
-document.write("<p>Your marks Calculus in is " + calculus + "</p>")
+document.write("<p>Your marks in Calculus is " + calculus + "</p>")
 document.write("<p>Your marks in English is " + eng + "</p>")
 document.write("<p>Your marks in Physics is " + physics + "</p>")
 document.write("<p>Your marks in Tajweed is " + tajweed + "</p>")

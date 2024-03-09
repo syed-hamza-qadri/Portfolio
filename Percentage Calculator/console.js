@@ -1,4 +1,4 @@
-console.log("Your marks Calculus in is " + calculus)
+console.log("Your marks in Calculus is " + calculus)
 console.log("Your marks in English is " + eng)
 console.log("Your marks in Physics is " + physics)
 console.log("Your marks in Tajweed is " + tajweed)
