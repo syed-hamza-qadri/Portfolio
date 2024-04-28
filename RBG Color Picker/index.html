@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Picker</title>
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        h1 {
+            font-size: 48px;
+        }
+
+        #main {
+            width: 700px;
+            margin-inline: auto;
+        }
+
+        #colorBox {
+            height: 500px;
+            background: rgb(98, 96, 96);
+            border-radius: 10px;
+        }
+
+        #inputs {
+            margin-top: 15px;
+        }
+
+        input {
+            width: 200px;
+            height: 25px;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: 2px gray solid;
+            outline: gray;
+        }
+
+        #input2 {
+            margin-inline: 8px;
+        }
+
+        #colorBtn {
+            width: 100%;
+            height: 50px;
+            margin-top: 20px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            background: lightgray;
+            transition: all 300ms;
+        }
+
+        #colorBtn:hover {
+            background: #292222;
+            color: lightgray;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="main">
+        <h1>RBG COLOR PICKER</h1>
+        <div id="colorBox"></div>
+
+        <div id="inputs">
+            <input type="number" placeholder="Red" id="input1">
+            <input type="number" placeholder="Green" id="input2">
+            <input type="number" placeholder="Blue" id="input3">
+            <button id="colorBtn" onclick="changebgcolor()">Search</button>
+        </div>
+    </div>
+
+    <script>
+
+        var colorBox = document.getElementById("colorBox")
+        var input1 = document.getElementById("input1")
+        var input2 = document.getElementById("input2")
+        var input3 = document.getElementById("input3")
+
+        function changebgcolor() {
+            colorBox.style.backgroundColor = `rgb(${input1.value}, ${input2.value}, ${input3.value})`;
+        }
+
+    </script>
+
+</body>
+
+</html>
