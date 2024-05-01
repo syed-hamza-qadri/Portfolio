@@ -1,0 +1,57 @@
+#sec_1 {
+    display: flex;
+    position: relative;
+}
+
+#sec_1 h1 {
+    font-size: 50px;
+    margin-inline: 15px;
+}
+
+#sec_1 h2 {
+    font-size: 45px;
+    margin-inline: 15px;
+}
+
+#div_1 {
+    width: 40%;
+    margin-inline: auto;
+}
+
+#div_2 {
+    width: 33%;
+    margin-inline: auto;
+}
+
+.boxParent {
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    margin-inline: 15px;
+    transition: all 300ms ease-in-out;
+    box-shadow: 0px 0px 5px lightgray;
+    border-radius: 15px;
+}
+
+.box:hover {
+    background: rgb(13, 13, 173);
+    cursor: pointer;
+}
+
+#sec_2_h {
+    width: 98.9%;
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+    background: blue;
+    color: #fff;
+}

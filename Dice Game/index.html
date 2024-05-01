@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="sec_1">
+        <div id="div_1">
+            <h1>Select Dice</h1>
+            <div class="boxParent">
+                <div class="box" onclick="checkNum(1)">1</div>
+                <div class="box" onclick="checkNum(2)">2</div>
+                <div class="box" onclick="checkNum(3)">3</div>
+                <div class="box" onclick="checkNum(4)">4</div>
+                <div class="box" onclick="checkNum(5)">5</div>
+                <div class="box" onclick="checkNum(6)">6</div>
+            </div>
+        </div>
+        <div id="div_2">
+            <h1>Random Number</h1>
+            <h2 id="ranNum">-</h2>
+            <h1>Selected Dice</h1>
+            <h2 id="diceNum">-</h2>
+        </div>
+    </section>
+
+    <section id="sec_2">
+        <h2 id="sec_2_h">Select Dice</h2>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
