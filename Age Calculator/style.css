@@ -1,0 +1,12 @@
+* {
+    font-family: sans-serif;
+}
+
+#input1,
+#UserSubmit {
+    font-size: 18px;
+}
+
+label {
+    font-size: 20px;
+}

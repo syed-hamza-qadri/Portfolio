@@ -14,3 +14,11 @@ a {
     align-items: center;
     text-align: center;
 }
+
+#main_div1>h1 {
+    font-size: 36px;
+}
+
+#main_div1>a {
+    font-size: 24px;
+}
