@@ -20,10 +20,13 @@ function attendance() {
 
     if (officeH > now.getHours()) {
         reach.innerText = "You are Ontime"
+        reach.style.color = "Green"
     } else if (officeH == now.getHours() && officeM > now.getMinutes()) {
         reach.innerText = "Warning! Be Ontime"
+        reach.style.color = "Orange"
     } else {
         reach.innerText = "You are Late"
+        reach.style.color = "Red"
     }
 }
 
