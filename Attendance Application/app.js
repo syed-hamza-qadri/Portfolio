@@ -1,32 +1,54 @@
-var sNo = document.getElementById("sNo")
-var Ename = document.getElementById("Ename")
-var time = document.getElementById("time")
-var reach = document.getElementById("reach")
-var input = document.getElementById("input")
+var tableBody = document.getElementById("attendanceTable");
 
-var now = new Date()
 var officeH = 9
-var officeM = 15    
+var officeM = 15
+var sNo = 1
 
 function attendance() {
-    sNo.innerText = 1
-    Ename.innerText = input.value
+    var now = new Date()
 
+    var input = document.getElementById("input").value
+    if (input === "") {
+        alert("Please enter a name.");
+        return;
+    }
+
+    var time;
     if (now.getHours() < 12) {
-        time.innerText = `${now.getHours()} : ${now.getMinutes()} am`
+        time = `${now.getHours()} : ${now.getMinutes()} am`
     } else {
-        time.innerText = `${now.getHours()} : ${now.getMinutes()} pm`
+        time = `${now.getHours()} : ${now.getMinutes()} pm`
     }
 
+    var reach;
+    var reachColor;
     if (officeH > now.getHours()) {
-        reach.innerText = "You are Ontime"
-        reach.style.color = "Green"
+        reach = "You are Ontime"
+        reachColor = "Green"
     } else if (officeH == now.getHours() && officeM > now.getMinutes()) {
-        reach.innerText = "Warning! Be Ontime"
-        reach.style.color = "Orange"
+        reach = "Warning! Be Ontime"
+        reachColor = "Orange"
     } else {
-        reach.innerText = "You are Late"
-        reach.style.color = "Red"
+        reach = "You are Late"
+        reachColor = "Red"
     }
+
+    var newRow = document.createElement("tr");
+    newRow.innerHTML = `
+                <td class="pl-2">${sNo}</td>
+                <td>${input}</td>
+                <td>${time}</td>
+                <td style="color:${reachColor};">${reach}</td>
+            `;
+
+    tableBody.appendChild(newRow);
+    document.getElementById("input").value = '';
+    sNo++;
 }
+
+document.getElementById("input").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        attendance();
+    }
+});
 
