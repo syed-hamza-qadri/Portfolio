@@ -46,9 +46,8 @@ function attendance() {
     sNo++;
 }
 
-document.getElementById("input").addEventListener("keypress", function(event) {
+document.getElementById("input").addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
         attendance();
     }
 });
-
