@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="body">
+            <div id="toolbar">
+                <select>
+                    <option value="normal">Heading</option>
+                    <option value="normal">Sub Heading</option>
+                    <option value="normal">Normal</option>
+                </select>
+                <select>
+                    <option value="normal">Serif</option>
+                    <option value="normal">Sansserif</option>
+                    <option value="normal">Roboto</option>
+                </select>
+                <button onclick="bold()"><img src="./asset/b.png"></button>
+                <button onclick="italic()"><img src="./asset/i.png"></button>
+                <button onclick="underline()"><img src="./asset/u.png"></button>
+                <button onclick="leftalign()"><img src="./asset/download.png"></button>
+                <button onclick="centeralign()"><img src="./asset/center.png"></button>
+                <button onclick="rightalign()"><img src="./asset/right.png"></button>
+                
+                <button onclick="uppercase()"><img src="./asset/uppercase.png "></button>
+                <button onclick="lowercase()"><img src="./asset/lowercase.png"></button>
+            </div>
+
+            <div id="text">
+                <h1 id="heading">Quill Rich Text Editor</h1>
+                <p id="para">Quill is a free, open source WYSIWYG editor built for the modern web. With its modular
+                    architecture
+                    and expressive API, it is completely customizable to fit any need.</textarea></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
