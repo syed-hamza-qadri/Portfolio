@@ -18,7 +18,7 @@ if (itemName.value == '' || amount.value == '') {
     <td>${itemName.value}</td>
     <td>${amount.value}</td>
     <td>${pera}</td>
-    <td><button onclick = "console.log(this.parentElement.parentElement.remove())>Edit</button> <button onclick = "console.log(this.parentElement.parentElement.remove())">Delete</button></td>
+    <td><button>Edit</button><button onclick = "console.log(this.parentElement.parentElement.remove())">Delete</button></td>
 </tr>`
 
     itemName.value = ''
