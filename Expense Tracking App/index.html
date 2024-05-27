@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracking Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+
+        <h1>Expense Tracking App</h1>
+
+        <div id="inputdiv">
+            <input type="text" placeholder="Item Name" id="itemName">
+            <input type="number" placeholder="Amount" id="amount">
+        </div>
+
+        <div id="btndiv">
+            <button id="btn1" class="btn" onclick="fun('Income')">Income</button>
+            <button id="btn2" class="btn" onclick="fun('Expense')">Expense</button>
+        </div>
+
+        <!-- <div id="div2">
+            <div class="div2">
+                <h2>Income</h2>
+                <p>00</p>
+            </div>
+            <div class="div2">
+                <h2>Expense</h2>
+                <p>00</p>
+            </div>
+            <div class="div2">
+                <h2>Balance</h2>
+                <p>00</p>
+            </div>
+        </div> -->
+
+        <div id="tablediv">
+            <table>
+                <thead>
+                    <tr>
+                        <td>S.No</td>
+                        <td>Item Name</td>
+                        <td>Amount</td>
+                        <td>Status</td>
+                        <td>Edit / Delete</td>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+
+        <button class="btn" onclick="fun1 ()">Delete All</button>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
