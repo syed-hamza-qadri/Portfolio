@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+#main {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    margin: 5px 0;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="loginPage" class="hidden">
+            <h2>Login</h2>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button onclick="saveEmail()">Login</button>
+        </div>
+        <div id="homePage" class="hidden">
+            <h2>Todo Application</h2>
+            <button onclick="logout()">Logout</button>
+            <h3>ToDo List</h3>
+            <ul id="todoList" class="todo-list"></ul>
+            <input type="text" id="todoInput" placeholder="Enter a new todo">
+            <button onclick="addTodo()">Add ToDo</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
