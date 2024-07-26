@@ -1,0 +1,42 @@
+* {
+    border-radius: 10px;
+    background: rgb(232, 222, 222);
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div2 {
+    display: flex;
+    gap: 10px;
+}
+
+#div2inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#imghover1 {
+    height: 510px;
+    width: 450px;
+}
+
+#imghover2 {
+    height: 250px;
+    width: 300px;
+
+}
+
+.imghover,#imghover {
+    width: 123px;
+    height: 100px;
+}
+
+#div3 {
+    margin-top: 20px;
+}
