@@ -1,7 +1,7 @@
 let assignmentArray = [
     {
         title: "Firebase Authentication",
-        link: "./Authentication/index.html",
+        link: "./Firebase Authentication/index.html",
         code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Firebase%20Authentication"
     }, {
         title: "Todo Local Storage",
