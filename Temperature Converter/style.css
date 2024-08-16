@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+    list-style: none;
+}
+
+#main {
+display: flex; 
+justify-content: center;
+text-align: center;
+}
+
+.inline {
+    display: inline;
+}
+
+.div {
+    margin-block: 20px;
+}
+
+#div {
+    width: 500px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+ul,li{
+    margin-inline: 0;
+    padding-inline: 0;
+}
+
+button,select {
+    cursor: pointer;
+}

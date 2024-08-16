@@ -1,5 +1,9 @@
 let assignmentArray = [
     {
+        title: "Temperature Converter",
+        link: "./Temperature Converter/index.html",
+        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Temperature%20Converter"
+    }, {
         title: "Firebase Authentication",
         link: "./Firebase Authentication/index.html",
         code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Firebase%20Authentication"
