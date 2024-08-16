@@ -6,58 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature Converter</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
     <div id="main">
-
-        <div id="div">
-
+        <div id="converter-container">
             <h1>Temperature Converter</h1>
 
-            <div>
-                <h3>Enter Temperature in Number </h3>
+            <div class="input-group">
+                <h3>Enter Temperature</h3>
                 <input type="number" placeholder="Enter Temperature" id="userInput">
             </div>
 
-            <div class="div">
-                <h3 class="inline">Convert From : </h3>
+            <div class="input-group">
+                <h3 class="inline">Convert From:</h3>
                 <select name="from" id="from">
-                    <option>Select</option>
+                    <option value="">Select</option>
                     <option value="Celsius">Celsius</option>
                     <option value="Fahrenheit">Fahrenheit</option>
                     <option value="Kelvin">Kelvin</option>
                 </select>
             </div>
 
-            <div class="div">
-                <h3 class="inline">Convert To : </h3>
+            <div class="input-group">
+                <h3 class="inline">Convert To:</h3>
                 <select name="to" id="to">
-                    <option>Select</option>
+                    <option value="">Select</option>
                     <option value="Celsius">Celsius</option>
                     <option value="Fahrenheit">Fahrenheit</option>
                     <option value="Kelvin">Kelvin</option>
                 </select>
             </div>
 
-            <div>
+            <div class="input-group">
                 <button id="convertBtn">Convert</button>
             </div>
 
-            <div>
-                <h2>Convertion History</h2>
-                <ul id="list">
-                </ul>
+            <div class="input-group">
+                <h2>Conversion History</h2>
+                <ul id="list"></ul>
             </div>
-
         </div>
-
     </div>
 
     <script src="app.js"></script>
-    
+
 </body>
 
 </html>

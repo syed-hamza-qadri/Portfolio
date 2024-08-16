@@ -9,7 +9,7 @@ function converter() {
     to = document.getElementById("to").value
 
     if (userInput == "" || from == "Select" || to == "Select") {
-        alert("Enter Value")
+        alert("Please enter a valid temperature and select units.")
     } else {
         
         if (from === "Celsius" && to === "Fahrenheit") {
@@ -25,7 +25,7 @@ function converter() {
         } else if (from === "Kelvin" && to === "Fahrenheit") {
             ans = ((userInput - 273.15) * 9 / 5) + 32
         } else {
-            alert("Check Convertion Units")
+            alert("Invalid conversion units.")
         }
 
         list.innerHTML += `<li>${userInput} ${from} is equals to ${ans} ${to}.</li>`
