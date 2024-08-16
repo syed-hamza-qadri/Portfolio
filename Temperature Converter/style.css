@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    letter-spacing: 1.1px;
 }
 
 body {
@@ -43,6 +44,7 @@ h2 {
     text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 1.5px;
+    text-align: center;
 }
 
 h3 {
