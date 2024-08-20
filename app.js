@@ -1,5 +1,9 @@
 let assignmentArray = [
     {
+        title: "Product Card Component Using React",
+        link: "./Product Card Component Using React/index.html",
+        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Product%20Card%20Component%20Using%20React"
+    }, {
         title: "Temperature Converter",
         link: "./Temperature Converter/index.html",
         code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Temperature%20Converter"
@@ -11,6 +15,10 @@ let assignmentArray = [
         title: "Todo Local Storage",
         link: "./Todo Local Storage/index.html",
         code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Todo%20Local%20Storage"
+    }, {
+        title: "Card Using ForEach",
+        link: "./Card Using ForEach/index.html",
+        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Card%20Using%20ForEach"
     }, {
         title: "Expense Tracking Application",
         link: "./Expense Tracking App/index.html",
