@@ -1,5 +1,9 @@
 let assignmentArray = [
     {
+        title: "Use State in React",
+        link: "UseState in React/index.html",
+        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Use%20State%20in%20React"
+    }, {
         title: "Product Card Component Using React",
         link: "./Product Card Component Using React/index.html",
         code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Product%20Card%20Component%20Using%20React"
