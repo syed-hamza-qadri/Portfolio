@@ -1,7 +1,7 @@
 let assignmentArray = [
     {
         title: "Product Card Component Using React",
-        link: "./Product Card Component Using React/index.html",
+        link: "./Product Card Component Using React\index.html",
         code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Product%20Card%20Component%20Using%20React"
     }, {
         title: "Temperature Converter",
