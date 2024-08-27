@@ -1,72 +1,76 @@
 let assignmentArray = [
     {
-        title: "UseState in React",
-        link: "UseState in React/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/UseState%20in%20React"
+        title: "Products Catalog Using React",
+        link: "https://products-catalog-using-react.vercel.app/",
+        code: "https://github.com/syed-hamza-qadri/Products-Catalog-Using-React"
     }, {
-        title: "Product Card Component Using React",
-        link: "./Product Card Component Using React/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Product%20Card%20Component%20Using%20React"
+        title: "UseState in React",
+        link: "https://use-state-in-react.vercel.app/",
+        code: "https://github.com/syed-hamza-qadri/UseState-in-React"
+    }, {
+        title: "Products Card Component Using React",
+        link: "https://products-card-component-using-react.vercel.app/",
+        code: "https://github.com/syed-hamza-qadri/Products-Card-Component-Using-React"
     }, {
         title: "Temperature Converter",
         link: "./Temperature Converter/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Temperature%20Converter"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Temperature%20Converter"
     }, {
         title: "Firebase Authentication",
         link: "./Firebase Authentication/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Firebase%20Authentication"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Firebase%20Authentication"
     }, {
         title: "Todo Local Storage",
         link: "./Todo Local Storage/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Todo%20Local%20Storage"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Todo%20Local%20Storage"
     }, {
         title: "Card Using ForEach",
         link: "./Card Using ForEach/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Card%20Using%20ForEach"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Card%20Using%20ForEach"
     }, {
         title: "Expense Tracking Application",
         link: "./Expense Tracking App/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Expense%20Tracking%20App"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Expense%20Tracking%20App"
     }, {
         title: "Text Editor",
         link: "./Text Editor/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Text%20Editor"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Text%20Editor"
     }, {
         title: "Image Gallery",
         link: "./Image Gallery/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Image%20Gallery"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Image%20Gallery"
     }, {
         title: "Calculator",
         link: "./Calculator/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Calculator"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Calculator"
     }, {
         title: "Attendance Application",
         link: "./Attendance Application/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Attendance%20Application"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Attendance%20Application"
     }, {
         title: "Age Calculator",
         link: "./Age Calculator/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Age%20Calculator"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Age%20Calculator"
     }, {
         title: "Dice Game",
         link: "./Dice Game/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Dice%20Game"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Dice%20Game"
     }, {
         title: "RGB Color Picker",
         link: "./RBG Color Picker/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/RBG%20Color%20Picker"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/RBG%20Color%20Picker"
     }, {
         title: "Simple Calculator",
         link: "./Simple Calculator/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Simple%20Calculator"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Simple%20Calculator"
     }, {
         title: "Resturant Menu",
         link: "./Menu/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Resturant%20Menu"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Resturant%20Menu"
     }, {
         title: "Percentage Calculator",
         link: "./Percentage Calculator/index.html",
-        code: "https://github.com/syed-hamza-qadri/javascript-projects/tree/main/Percentage%20Calculator"
+        code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Percentage%20Calculator"
     }
 ]
 
