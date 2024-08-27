@@ -1,0 +1,18 @@
+.bg-gradient {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.btn-custom {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    transition: background 0.3s ease;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(135deg, #feb47b, #ff7e5f);
+}
