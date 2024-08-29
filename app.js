@@ -1,5 +1,9 @@
 let assignmentArray = [
     {
+        title: "Weather App Using React",
+        link: "https://weather-app-using-react-eosin.vercel.app/",
+        code: "https://github.com/syed-hamza-qadri/Weather-App-Using-React"
+    }, {
         title: "Products Catalog Using React",
         link: "https://products-catalog-using-react.vercel.app/",
         code: "https://github.com/syed-hamza-qadri/Products-Catalog-Using-React"
@@ -65,7 +69,7 @@ let assignmentArray = [
         code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Simple%20Calculator"
     }, {
         title: "Resturant Menu",
-        link: "./Menu/index.html",
+        link: "./Resturant Menu/index.html",
         code: "https://github.com/syed-hamza-qadri/Portfolio/tree/main/Resturant%20Menu"
     }, {
         title: "Percentage Calculator",
